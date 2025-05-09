@@ -1,0 +1,178 @@
+\begin{rSection}{Employment}
+
+\textbf{Senior Data Scientist / AI Engineer | The MITRE Corporation}\hfill Jun 2020 - Present
+\begin{itemize}
+    \item Trained multiple end-to-end ML algorithms using TensorFlow and Python and deployed in a production-style environment
+    \item Queried and cleaned large databases (100M+ rows) using SQL and Python, including imputation and junk-data removal
+    %\item Leveraged LLMs (GPT-4, Llama) single-shot for RAG application and multi-shot to teach LLM to write code in niche language
+    \item Leveraged LLMs (GPT-4o, Llama) for document processing tasks, including titling, summarization, and classification
+    \item Developed novel confidence scores for LLM output in RAG application to assess reliability of LLM answers to prompts
+    \item Operated within AWS+Azure environments to deliver high-quality, scalable, and secure data science solutions to sponsors
+    \item Secured two patents as primary inventor of novel computer vision ML techniques
+    \item Published research papers in top-tier journals on data science and machine learning
+    %\item Developed predictive models to detect anomalies, predict future patient outcomes, and automate away manual tedium
+    \item Maintained large codebases according to best practices, using Git, Jira, and Confluence
+    \item Managed and provided tasking for teams as large as five other people
+\end{itemize} 
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%   RESEARCH SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Notable Projects}
+% Last update: 04/07/2024
+
+% Synergy PDF summarization
+\textbf{Varied Filetype Document Summarization} \textit{MITRE}
+\hfill Jan 2025 - Present
+\begin{itemize}
+    \item Built AWS pipeline to detect new files in secure file system, process using LLMs, then return output to file system
+    \item Enabled secure, encrypted access to/from remote client file system using AWS Glue Python shell jobs
+    \item Extracted text from 20+ file types (structured and unstructured) using format-specific logic, including custom OCR
+    \item Engineered prompts to summarize and title file contents according to client's formatting requirements
+    \item Designed scalable processing flow for 5.6M+ files/year with error handling, logging, and performance metrics
+\end{itemize}
+
+% iCube AHRQ RAG project
+\textbf{Automating Abstraction of Large PDFs} \textit{MITRE}
+\hfill Sep 2024 - Mar 2025
+\begin{itemize}
+    \item Developed end-to-end RAG pipeline to answer questions based on hospitalization record using LLMs and other NLP models
+    \item Saved 2100+ hours per month by reducing time required for a single PDF down from 70 minutes to 15 minutes (79\% dec)
+    \item Leveraged modern NLP models to vectorize input text + question to select relevant PDF pages as context for LLM
+    \item Invented novel LLM confidence score representing likelihood LLM output correctly answers input prompt
+    \item Ideated entire ML pipeline, including OCR, data cleaning, vectorizing data, prompting LLM, and validating output
+    \item Orchestrated series of AWS Lambda functions via AWS Step function to follow healthcare-specific decision logic
+\end{itemize}
+
+% All UOHI work
+\textbf{Automated Analysis of Cardiac CT Scans} \textit{MITRE}
+\hfill Jan 2021 - Sep 2024
+\begin{itemize}
+    \item Trained a series of 20 CNNs to automatically annotate CT images used for heart surgeries, reducing clinical time burden by 95\% and increasing reproducibility
+    \item Delivered successful, completed models to sponsor in under half of the budgeted time
+    \item Deployed trained models via cloud-based TensorFlow Serving to enable quick, efficient user access (in progress)
+    \item Secured \$30,000 in MITRE overhead for self-funding to perform a validation study at a VA hospital
+    \item Submitted two patent requests as primary inventors of ML algorithms to annotate CT scans
+    \item Mentored an intern starting in summer 2021, including securing permissions, assigning tasks, and providing next steps
+    \item Published a research paper in a high impact factor journal (16; JACC Imaging) as second author
+\end{itemize}
+
+% Second AVC -- TAVR project
+\begin{comment}
+\textbf{Automated Pre-procedural Analysis for TAVR Surgeries} \textit{MITRE}
+\hfill Jan 2023 - Present
+\begin{itemize}
+    \item Trained a series of 20 CNNs to automatically annotate CT images used for heart surgeries, reducing clinical time burden by 75\% and increasing reproducibility
+    \item Successfully completed the project on time, despite an unexpected halving of the budget
+    \item Coded a robust geometrical library in Python to resample images and positions in 2D and 3D, including rotations and shifts
+    \item Coordinated with VA Palo Alto and a Canadian heart hospital to validate algorithms on external cohort
+    \item Secured \$30,000 in MITRE overhead to fund my time to perform the validation study at a VA hospital
+    \item Submitted a patent request as primary inventor for ML algorithms to annotate CT scans (in progress)
+\end{itemize}
+\end{comment}
+
+% AUDITS
+\begin{comment}
+\textbf{Automated Discovery of Tax Schemes (AuDiTS)} \textit{MITRE}
+\hfill Apr 2022 - Present
+\begin{itemize}
+    \item Developed an agent-based model in Python to automatically detect loopholes in federal tax code
+    \item Trained LLMs via few-shot prompting to automatically generate custom code in domain-specific programming language
+    \item Created automated metrics to measure success of LLM output code at performing desired task
+    \item Performed millions of experiments on a high-performance computing cluster to generate results of agent-based model
+    \item Led migration of codebase from R to Python, translating thousands of lines of code, placing project months ahead of schedule
+    %\item Self-taught domain-specific programming language in a month to directly translate sections of tax law into usable code
+    \item Managed a Github repo with 12 contributors, including submitting/reviewing pull requests and creating/assigning issues
+    \item Briefed high-level IRS officials regularly on the status of algorithm development
+\end{itemize}
+\end{comment}
+
+% Original AVC project
+\begin{comment}
+%\textbf{Automated Quantification of Aortic Valve Calcification (AVC)} \textit{MITRE}
+%\hfill Jan 2021 - Jan 2023
+%\begin{itemize}
+    %\item Developed a novel ML algorithm containing 6 distinct models to predict probabilities of surgical complications for over 10,000 patients at risk of severe aortic stenosis
+    %\item Coordinated joint funding between US + Canadian groups to fund a team of 5 for over two years
+    %\item Secured a patent as primary inventor for ML algorithms developed to segment aortic valve calcium
+    %\item Published a research paper in a high impact factor journal (16; JACC Imaging) as second author
+    %\item Trained a CNN to determine normal vector to patient's aortic valve annular plane with sub-0.05 dot product precision
+    %\item Invented a novel deep-learning architecture to perform image segmentation with $>$98\% pixel-level accuracy
+    %\item Trained a recursive series of CNNs to locate a patient's aortic valve inside a CT scan image with sub-mm precision
+    %\item Mentored an intern starting in summer 2021, including securing permissions, assigning tasks, and providing next steps
+    %\item Created and managed a GitLab repository to manage progress of 3 different developers with daily commits
+    %\item Organized and led weekly discussions of technical results and next steps with ML experts and medical experts
+%\end{itemize}
+\end{comment}
+
+% MERIT project
+\begin{comment}
+\textbf{Medical Evaluation Readiness Information Tool (MERIT)} \textit{MITRE}
+\hfill Oct 2020 - Jun 2021
+\begin{itemize}
+    \item Predicted likelihood of active service members being labelled medically unfit for duty to save millions of federal dollars
+    \item Demonstrated expertise in implementing and delivering AWS cloud-based data science solutions to sponsors
+    \item Queried health records database ($>$650 million rows) in SQL to inspect and select relevant data for machine learning pipeline
+    \item Mapped all ICD-10 CM and PCS codes to corresponding ICD-9, applied to over 20 years/80 million records of health data
+    \item Identified and filtered illegitimate ICD and PCS codes from over 20 years/80 million records of health data
+    %\item Authored a 73-page technical report presented to the Joint Artificial Intelligence Center (3rd author; available upon request)
+    \item Populated 5 database tables with over 100 million rows for a live Tableau UI display of model predictions
+    %\item Presented weekly technical results to colonels and majors in the US Army as well as technical experts
+\end{itemize}
+\end{comment}
+
+% COVID food supply chain
+\begin{comment}
+%\textbf{Reducing the Impact of COVID-19 on the US Food Supply Chain} \textit{MITRE}
+%\hfill Dec 2020 - Jan 2021
+%\begin{itemize}
+%    \item Modelled risk of each county in the US for COVID-19 infection with extra emphasis on the food supply chain to provide data-driven insight to government sponsor in how best to distribute COVID-19 vaccines
+%    \item Collected, evaluated, and synthesized six public datasets on COVID-19 and US food supply chain to produce risk model
+%    \item Visualized modelled risk data for US food supply chain by creating web dashboard using Python and HTML
+%    \item Created and managed an AWS EC2 instance to export hosting of risk model dashboard
+%\end{itemize}
+\end{comment}
+
+% IMAP
+\begin{comment}
+%\textbf{IMAP Project} \textit{MITRE}
+%\hfill July 2020 - Oct 2020
+%\begin{itemize}
+%    \item Established qualitative and quantitative relationships between a nation's quality of governance and level of militancy using sponsor-provided data and public militancy and governance data in Python and R
+%    \item Related governance indicators to militancy using Qualitative Comparative Analysis (QCA) methods
+%    \item Calculated key features determining militancy from governance using Random Forest machine learning techniques
+%    \item Self-taught and -directed progress through QCA and Random Forest analyses %-- COME BACK TO THIS ONE
+%    \item Presented compiled QCA and Random Forest findings to both technical collaborators and non-expert government sponsor
+%\end{itemize}
+\end{comment}
+
+% Original opioids project
+\begin{comment}
+%\textbf{CMS State Engagement to Address Opioid Overprescribing and Misuse} \textit{MITRE}
+%\hfill Jun 2020 - Sep 2020
+%\begin{itemize}
+%    \item Investigated overlapping opioid prescriptions and patterns of life by analyzing medical claims data using SQL and Python to provide data-driven insight on opioid epidemic to state government task force
+%    \item Queried 20+ different health records database tables ($>$100 million rows) using SQL to select and inspect relevant data
+%    \item Cleaned health records data in Python, including filling in missing values and correcting improperly formatted entries
+%    \item Predicted likelihood an opioid user will become addicted using LSTM and DNN machine learning techniques in Python
+%    \item Collaborated with 5 fellow data scientists to merge results and manage progress in weekly meetings
+%    \item Presented overlapping prescriptions findings to over 20 members of government task force
+%\end{itemize}
+\end{comment}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Notable Programming Expertise}
+
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+    Programming Languages & Python, SQL, R, C++ \\
+    Other Notable Software & AWS, Azure, LLMs (GPT-4, Llama), TensorFlow, Git, Jira, Spark, Hadoop,\\ & Confluence, Pandas, Excel
+    %\\Independent Coding Projects & github.com/andytaylor823
+    \end{tabular}
+
+\end{rSection}

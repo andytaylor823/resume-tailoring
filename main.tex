@@ -1,0 +1,400 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Workday summary of my MITRE job:
+% I developed several end-to-end data pipelines for government sponsors, as a contractor. I worked on big data streams, using SQL and Python to analyze numerical, text, and image data and process it for analysis. I have also processed downstream data by leveraging AI/ML using Python to provide high quality, data-driven insights to these government sponsors.
+
+% Why do you want to work at PostEra?
+% I am interested in and excited by leveraging AI and data science to advance health care and patient outcomes. I have a limited ability to do this at my current job, and I am looking to take the next step in my career. I am passionate about data ML and data science, and I believe that I can best use my talents at PostEra to bring good into the world.
+% (more generic) I am interested in and excited by leveraging AI and data science to solve hard problems. I have a limited ability to do this at my current job, and I am looking to take the next step in my career. I am passionate about data ML and data science, and I believe that I can best use my talents at <COMPANY> to bring good into the world.
+
+% What drew your interest to this position at Rumble?
+% I believe in many of the core tenets of Rumble, that the internet is one of the last havens of free speech and needs to be protected. My resume will show that I have the technical qualifications for this position, with my 11 years of experience in Python and my several publications in peer-reviewed scientific journals, among others. However, what drew me to this position was the unique mission of Rumble to amplify under-emphasized voices.
+
+% What makes you a good fit for this role? (I copied some text from the job desc)
+% I have several years of experience developing modern data science solutions using complex, messy medical data. I have worked on teams to query large databases of raw health data and developed robust database search algorithms to ease this process. I also have some front-end experience as well, leveraging Flask to create a web dashboard visualizing the risk and impact of COVID-19 in the US at a county level. Overall, I am an experienced software engineer with experience performing both front-end and back-end data operations.
+
+% Why do you want to be an AI Engineer at Pocket Prep?
+% I’m excited about the AI Engineer role at Pocket Prep because it aligns with my passion for making education more equitable and accessible. High-pressure exams can be gatekeepers to meaningful career advancement, and I’m drawn to Pocket Prep’s mission of lowering those barriers. I want to contribute to building AI-driven solutions that don’t just "flash", but contribute meaningful impact to real people.
+% My technical experience is well-documented in my resume, and I want to specifically highlight a project I worked on that implemented a RAG architecture. I was responsible for leading the entire development, from ideating the initial solution, to deploying it in AWS and engaging with the client for feedback. I believe my experience with end-to-end ML projects and the "soft skills" (secretly some of the most important) I demonstrated here are what set me apart from other candidates.
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{enumitem}
+\usepackage{comment}
+\setlist{nosep, topsep=0pt}
+
+%\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\usepackage[left=0.25in,top=0.5in,right=0.25in,bottom=0.5in]{geometry}
+\usepackage{multicol}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\name{Andy Taylor} % Your name
+\address{
+ 1824 Fowler St \\
+ Charlottesville, VA 22901 \\
+ (614) 625 - 9144}
+%\address{\textbf{Office Address:}
+%530 McCormick Road, Room 267 \\
+% Charlottesville, VA 22904
+%}
+\address{andytaylor823@gmail.com \\ linkedin.com/in/andytaylor823 \\ github.com/andytaylor823} 
+%\address{taylora@mitre.org \\ linkedin.com/in/andytaylor823 \\ github.com/andytaylor823} % Your phone number and email
+%\address{\textbf{Clearance Level:} \textbf{DoD TS} (Oct 2020) \\ DHS Secret fitness (May 2021) \\ IRS MBI (Apr 2022)}
+\address{\textbf{Clearance Level:} DoD TS \\ DHS Secret Fitness}
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+\textbf{University of Virginia} Charlottesville, VA
+\hfill Aug 2018 - May 2020\\
+M.S., Astrophysics
+%\hfill GPA: 4.00/4.00
+%\\Advisor: Assistant Professor, Kent Yagi (Physics)
+%\hfill GRE subscores: 170/170 Math, 162/170 Verbal
+%\\Co-Advisor: VITA Professor, Phil Arras (Astronomy)
+%\\Area of Study: Gravitational Waves, White Dwarf I-Love-Q Relations
+
+\textbf{Ohio State University} Columbus, OH
+\hfill Aug 2014 - May 2018\\
+B.S., Physics \& Astronomy%, Graduated with Honors
+%\hfill GPA: 3.96/4.00 \\
+%\textit{summa cum laude}, with Honors Research Distinction
+%\\Honors Thesis: \textit{A Possible Evolutionary Channel for the Recently-Discovered Class of Millisecond Pulsars in Long, Eccentric Orbits}\\
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EMPLOYMENT SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Employment}
+
+\textbf{Senior Data Scientist / AI Engineer | The MITRE Corporation}\hfill Jun 2020 - Present
+\begin{itemize}
+    \item Trained multiple end-to-end ML algorithms using TensorFlow and Python and deployed in a production-style environment
+    \item Queried and cleaned large databases (100M+ rows) using SQL and Python, including imputation and junk-data removal
+    %\item Leveraged LLMs (GPT-4, Llama) single-shot for RAG application and multi-shot to teach LLM to write code in niche language
+    \item Leveraged LLMs (GPT-4o, Llama) for document processing tasks, including titling, summarization, and classification
+    \item Developed novel confidence scores for LLM output in RAG application to assess reliability of LLM answers to prompts
+    \item Operated within AWS+Azure environments to deliver high-quality, scalable, and secure data science solutions to sponsors
+    \item Secured two patents as primary inventor of novel computer vision ML techniques
+    \item Published research papers in top-tier journals on data science and machine learning
+    %\item Developed predictive models to detect anomalies, predict future patient outcomes, and automate away manual tedium
+    \item Maintained large codebases according to best practices, using Git, Jira, and Confluence
+    \item Managed and provided tasking for teams as large as five other people
+\end{itemize} 
+
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%   RESEARCH SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Notable Projects}
+% Last update: 04/07/2024
+
+% Synergy PDF summarization
+\textbf{Varied Filetype Document Summarization} \textit{MITRE}
+\hfill Jan 2025 - Present
+\begin{itemize}
+    \item Built AWS pipeline to detect new files in secure file system, process using LLMs, then return output to file system
+    \item Enabled secure, encrypted access to/from remote client file system using AWS Glue Python shell jobs
+    \item Extracted text from 20+ file types (structured and unstructured) using format-specific logic, including custom OCR
+    \item Engineered prompts to summarize and title file contents according to client's formatting requirements
+    \item Designed scalable processing flow for 5.6M+ files/year with error handling, logging, and performance metrics
+\end{itemize}
+
+% iCube AHRQ RAG project
+\textbf{Automating Abstraction of Large PDFs} \textit{MITRE}
+\hfill Sep 2024 - Mar 2025
+\begin{itemize}
+    \item Developed end-to-end RAG pipeline to answer questions based on hospitalization record using LLMs and other NLP models
+    \item Saved 2100+ hours per month by reducing time required for a single PDF down from 70 minutes to 15 minutes (79\% dec)
+    \item Leveraged modern NLP models to vectorize input text + question to select relevant PDF pages as context for LLM
+    \item Invented novel LLM confidence score representing likelihood LLM output correctly answers input prompt
+    \item Ideated entire ML pipeline, including OCR, data cleaning, vectorizing data, prompting LLM, and validating output
+    \item Orchestrated series of AWS Lambda functions via AWS Step function to follow healthcare-specific decision logic
+\end{itemize}
+
+% All UOHI work
+\textbf{Automated Analysis of Cardiac CT Scans} \textit{MITRE}
+\hfill Jan 2021 - Sep 2024
+\begin{itemize}
+    \item Trained a series of 20 CNNs to automatically annotate CT images used for heart surgeries, reducing clinical time burden by 95\% and increasing reproducibility
+    \item Delivered successful, completed models to sponsor in under half of the budgeted time
+    \item Deployed trained models via cloud-based TensorFlow Serving to enable quick, efficient user access (in progress)
+    \item Secured \$30,000 in MITRE overhead for self-funding to perform a validation study at a VA hospital
+    \item Submitted two patent requests as primary inventors of ML algorithms to annotate CT scans
+    \item Mentored an intern starting in summer 2021, including securing permissions, assigning tasks, and providing next steps
+    \item Published a research paper in a high impact factor journal (16; JACC Imaging) as second author
+\end{itemize}
+
+% Second AVC -- TAVR project
+\begin{comment}
+\textbf{Automated Pre-procedural Analysis for TAVR Surgeries} \textit{MITRE}
+\hfill Jan 2023 - Present
+\begin{itemize}
+    \item Trained a series of 20 CNNs to automatically annotate CT images used for heart surgeries, reducing clinical time burden by 75\% and increasing reproducibility
+    \item Successfully completed the project on time, despite an unexpected halving of the budget
+    \item Coded a robust geometrical library in Python to resample images and positions in 2D and 3D, including rotations and shifts
+    \item Coordinated with VA Palo Alto and a Canadian heart hospital to validate algorithms on external cohort
+    \item Secured \$30,000 in MITRE overhead to fund my time to perform the validation study at a VA hospital
+    \item Submitted a patent request as primary inventor for ML algorithms to annotate CT scans (in progress)
+\end{itemize}
+\end{comment}
+
+% AUDITS
+\begin{comment}
+\textbf{Automated Discovery of Tax Schemes (AuDiTS)} \textit{MITRE}
+\hfill Apr 2022 - Present
+\begin{itemize}
+    \item Developed an agent-based model in Python to automatically detect loopholes in federal tax code
+    \item Trained LLMs via few-shot prompting to automatically generate custom code in domain-specific programming language
+    \item Created automated metrics to measure success of LLM output code at performing desired task
+    \item Performed millions of experiments on a high-performance computing cluster to generate results of agent-based model
+    \item Led migration of codebase from R to Python, translating thousands of lines of code, placing project months ahead of schedule
+    %\item Self-taught domain-specific programming language in a month to directly translate sections of tax law into usable code
+    \item Managed a Github repo with 12 contributors, including submitting/reviewing pull requests and creating/assigning issues
+    \item Briefed high-level IRS officials regularly on the status of algorithm development
+\end{itemize}
+\end{comment}
+
+% Original AVC project
+\begin{comment}
+%\textbf{Automated Quantification of Aortic Valve Calcification (AVC)} \textit{MITRE}
+%\hfill Jan 2021 - Jan 2023
+%\begin{itemize}
+    %\item Developed a novel ML algorithm containing 6 distinct models to predict probabilities of surgical complications for over 10,000 patients at risk of severe aortic stenosis
+    %\item Coordinated joint funding between US + Canadian groups to fund a team of 5 for over two years
+    %\item Secured a patent as primary inventor for ML algorithms developed to segment aortic valve calcium
+    %\item Published a research paper in a high impact factor journal (16; JACC Imaging) as second author
+    %\item Trained a CNN to determine normal vector to patient's aortic valve annular plane with sub-0.05 dot product precision
+    %\item Invented a novel deep-learning architecture to perform image segmentation with $>$98\% pixel-level accuracy
+    %\item Trained a recursive series of CNNs to locate a patient's aortic valve inside a CT scan image with sub-mm precision
+    %\item Mentored an intern starting in summer 2021, including securing permissions, assigning tasks, and providing next steps
+    %\item Created and managed a GitLab repository to manage progress of 3 different developers with daily commits
+    %\item Organized and led weekly discussions of technical results and next steps with ML experts and medical experts
+%\end{itemize}
+\end{comment}
+
+% BDE lmao
+\begin{comment}
+%\textbf{GENESIS Bulk Data Extract} \textit{MITRE}
+%\hfill Jun 2021 - Apr 2022 % wow, can't believe I was on this for like 10 months...
+%\begin{itemize}
+%    \item Literally IDK. This project sux lol.
+%\end{itemize}
+\end{comment}
+
+% MERIT project
+\begin{comment}
+\textbf{Medical Evaluation Readiness Information Tool (MERIT)} \textit{MITRE}
+\hfill Oct 2020 - Jun 2021
+\begin{itemize}
+    \item Predicted likelihood of active service members being labelled medically unfit for duty to save millions of federal dollars
+    \item Demonstrated expertise in implementing and delivering AWS cloud-based data science solutions to sponsors
+    \item Queried health records database ($>$650 million rows) in SQL to inspect and select relevant data for machine learning pipeline
+    \item Mapped all ICD-10 CM and PCS codes to corresponding ICD-9, applied to over 20 years/80 million records of health data
+    \item Identified and filtered illegitimate ICD and PCS codes from over 20 years/80 million records of health data
+    %\item Authored a 73-page technical report presented to the Joint Artificial Intelligence Center (3rd author; available upon request)
+    \item Populated 5 database tables with over 100 million rows for a live Tableau UI display of model predictions
+    %\item Presented weekly technical results to colonels and majors in the US Army as well as technical experts
+\end{itemize}
+\end{comment}
+
+% COVID food supply chain
+\begin{comment}
+%\textbf{Reducing the Impact of COVID-19 on the US Food Supply Chain} \textit{MITRE}
+%\hfill Dec 2020 - Jan 2021
+%\begin{itemize}
+%    \item Modelled risk of each county in the US for COVID-19 infection with extra emphasis on the food supply chain to provide data-driven insight to government sponsor in how best to distribute COVID-19 vaccines
+%    \item Collected, evaluated, and synthesized six public datasets on COVID-19 and US food supply chain to produce risk model
+%    \item Visualized modelled risk data for US food supply chain by creating web dashboard using Python and HTML
+%    \item Created and managed an AWS EC2 instance to export hosting of risk model dashboard
+%\end{itemize}
+\end{comment}
+
+% IMAP
+\begin{comment}
+%\textbf{IMAP Project} \textit{MITRE}
+%\hfill July 2020 - Oct 2020
+%\begin{itemize}
+%    \item Established qualitative and quantitative relationships between a nation's quality of governance and level of militancy using sponsor-provided data and public militancy and governance data in Python and R
+%    \item Related governance indicators to militancy using Qualitative Comparative Analysis (QCA) methods
+%    \item Calculated key features determining militancy from governance using Random Forest machine learning techniques
+%    \item Self-taught and -directed progress through QCA and Random Forest analyses %-- COME BACK TO THIS ONE
+%    \item Presented compiled QCA and Random Forest findings to both technical collaborators and non-expert government sponsor
+%\end{itemize}
+\end{comment}
+
+% Original opioids project
+\begin{comment}
+%\textbf{CMS State Engagement to Address Opioid Overprescribing and Misuse} \textit{MITRE}
+%\hfill Jun 2020 - Sep 2020
+%\begin{itemize}
+%    \item Investigated overlapping opioid prescriptions and patterns of life by analyzing medical claims data using SQL and Python to provide data-driven insight on opioid epidemic to state government task force
+%    \item Queried 20+ different health records database tables ($>$100 million rows) using SQL to select and inspect relevant data
+%    \item Cleaned health records data in Python, including filling in missing values and correcting improperly formatted entries
+%    \item Predicted likelihood an opioid user will become addicted using LSTM and DNN machine learning techniques in Python
+%    \item Collaborated with 5 fellow data scientists to merge results and manage progress in weekly meetings
+%    \item Presented overlapping prescriptions findings to over 20 members of government task force
+%\end{itemize}
+\end{comment}
+
+% Grad school stuff
+\begin{comment}
+%----------------------------------------------------------------------------------------
+%   GRAD SCHOOL STUFF
+%----------------------------------------------------------------------------------------
+%\textbf{Estimating Uncertainties in Future Gravitational Wave Detectors} \textit{University of Virginia}
+%\hfill Aug 2019 - Present
+%\begin{itemize}
+%    \item Predicted statistical uncertainty in parameter measurements from future gravitational wave detectors using Fisher analysis
+%    \item Calculated most likely gravitational wave parameters for binary systems using Bayesian statistical analysis
+%\end{itemize}
+
+%\textbf{Determining I-Love-Q Relations for Realistic White Dwarfs} \textit{University of Virginia}
+%\hfill Aug 2018 - May 2020
+%\begin{itemize}
+%    \item Coded a system of 20+ separate Python scripts to mathematically model and statistically analyze white dwarf interiors over time, generating hundreds of data files with over 1000 rows and 50 columns each
+%    \item Cleaned data, including analyzing outliers for significance and plotting trends in relevant variables
+%    \item Determined best-fit parameters for generated data using least-squares regression techniques in Python
+%    \item First-authored a peer-reviewed paper on white dwarf interior structure and data analysis (arXiv:1912.09557)
+%    \item Authored a second paper on measuring individual white dwarf masses from GW signal (MNRAS ID: MN-20-3801-L.R1)
+%    \item Communicated data-driven findings with experts and those less familiar with the model in weekly group meetings
+%\end{itemize}
+
+%\textbf{Modelling Millisecond Pulsars in Long, Eccentric Orbits} \textit{The Ohio State University}
+%\hfill Oct 2016 - May 2018
+%\\ \textit{The Ohio State University, Adv. Todd Thompson}
+%\begin{itemize}
+%    \item Programmed network of 10+ Python scripts modelling 3-body dynamics to investigate merger rates of compact objects 
+%    \item Produced hundreds of data files with over 1000 rows each to survey parameter space of 3-body merger events
+%    %\item Scaled up data generation while saving 10 weeks of computational time by using 1700+ hours on a supercomputing cluster
+%    \item Cleaned the large dataset, including analyzing outliers for significance and plotting trends in relevant variables
+%    \item Calculated best-fit parameters to big data using least-squares regression techniques in Python to predict merger likelihood% from initial conditions
+%    \item Authored a 22-page honors thesis and presented technical results before a committee of faculty members
+%\end{itemize}
+
+%\textbf{Predicting Merger Rates of Compact Objects} \textit{The Ohio State University}
+%\hfill Oct 2015 - Oct 2016
+%\\ \textit{The Ohio State University, Adv. Todd Thompson}
+%\begin{itemize}
+%    \item Coded system of 10+ Python scripts to predict black hole merger rates by simultaneously integrating 7 differential equations
+%    \item Generated big data and saved over 40 weeks of computational time by using 7000+ hours on a supercomputing cluster
+%    \item Compared merger rates obtained using different methods of integration to assess accuracy of time-saving integration technique
+%    \item Presented findings in a 10-minute talk to the Ohio State Department of Astronomy faculty and graduate students
+%\end{itemize}
+\end{comment}
+
+\end{rSection}
+
+% Coursework section
+\begin{comment}
+%----------------------------------------------------------------------------------------
+%   COURSEWORK SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Relevant Coursework}
+\textbf{Machine Learning, CS 4774} \textit{University of Virginia}
+\hfill Jan 2020 - Present
+\begin{itemize}
+    \item Constructed ML pipelines to read in and clean data, train and test models, and investigate results to assess model accuracy
+    \item Analyzed real-world datasets (e.g. Boston Housing, Virginia census) to produce accurate, relevant models
+    \item Analyzed real-world datasets (e.g. Boston Housing, New York Citi Bike usage) to produce accurate, relevant models
+    \item Predicted student high-school graduation likelihood based on student demographic data from the Virginia census %(WIP)
+    \item Collaborated weekly with peers to write code, select appropriate models, analyze model performance, and present results
+    \item Explored numerous different ML algorithms, including Random Forests, Decision Trees, K-Nearest Neighbors, Support Vector Machine, Neural Nets, and TensorFlow
+\end{itemize}
+
+\textbf{Statistical Machine Learning, STAT 4630} \textit{University of Virginia}
+\hfill Aug 2019 - Dec 2019
+\begin{itemize}
+    \item Developed ML pipelines to read in and clean data, train and test models, and analyze results to assess model accuracy
+    \item Collaborated weekly with peers to write code, select appropriate models, analyze model performance, and present results
+    \item Explored numerous different ML algorithms, including Random Forests, K-Nearest Neighbors, and Lasso/Ridge Regression
+    \item Explored numerous different ML algorithms, including Random Forests, Decision Trees, K-Nearest Neighbors, Support Vector Machine, Neural Nets, and TensorFlow
+\end{itemize}
+
+\begin{minipage}[b]{0.49\textwidth}
+Machine Learning (SP 2020)
+\end{minipage} \begin{minipage}[b]{0.49\textwidth}
+Statistical Machine Learning (AU 2019)
+\end{minipage}
+\end{rSection}
+\end{comment}
+
+% Leadership section
+\begin{comment}
+%----------------------------------------------------------------------------------------
+%   LEADERSHIP SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Communication and Leadership Experience}
+\textbf{Head Teaching Assistant (TA)}
+\hfill Aug 2019 - May 2020 (TA Aug 2018 - May 2020; \textit{20 hr/week})
+\begin{itemize}
+    \item Negotiated assignments of teaching positions between faculty and graduate students based on demand and preference
+    \item Communicated information about resources and faculty expectations to new TAs in an hour-long training session
+    \item Taught review sessions, answered in-class questions, proctored exams and twice-weekly night labs
+\end{itemize}
+
+\textbf{Public Nights and Star Parties}
+\hfill Sep 2018 - May 2020 (\textit{30 hr/semester})
+\begin{itemize}
+    \item Coordinated with faculty and other graduate students to lead an annual star party with over 500 attendees
+    \item Presented on uses and applications of an IR camera to 40+ members of the public at Fan Mountain Observatory
+    \item Led 50+ members of the public in telescope-observing sessions at McCormick Observatory 3 times per year
+\end{itemize}
+\end{rSection}
+\end{comment}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Notable Programming Expertise}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Programming Languages & Python, SQL, R, C++ \\
+Other Notable Software & AWS, Azure, LLMs (GPT-4, Llama), TensorFlow, Git, Jira, Spark, Hadoop,\\ & Confluence, Pandas, Excel
+%\\Independent Coding Projects & github.com/andytaylor823
+\end{tabular}
+
+\end{rSection}
+
+
+\end{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+

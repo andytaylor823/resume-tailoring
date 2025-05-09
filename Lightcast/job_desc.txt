@@ -1,0 +1,26 @@
+Full job description
+We are looking for a motivated and detail-oriented NLP Data Scientist with a passion for text mining, machine learning, and natural language processing. This role offers the opportunity to apply advanced NLP techniques to drive innovation and enhance our workforce intelligence capabilities.
+
+As part of our team, you’ll collaborate with experienced NLP data scientists and engineers to design, develop, and optimize algorithms and models that power next-generation workforce solutions. This is a unique opportunity to build your career in AI and NLP while contributing to impactful, real-world applications.
+
+If you're eager to work on cutting-edge technology that is reshaping workforce planning and decision-making, we’d love to hear from you. Join us and help redefine how organizations understand and manage talent.
+Major Responsibilities:
+Design and develop advanced NLP algorithms and models tailored specifically to workforce intelligence applications, such as job postings and professional profiles analysis.
+Analyze and preprocess large-scale multilingual text data, ensuring accuracy, consistency, and readiness for advanced modeling and real-world applications.
+Conduct rigorous experimentation and validation of NLP models using robust statistical methodologies and relevant evaluation metrics, continuously improving model performance and reliability.
+Deploy, monitor, and maintain NLP-driven applications in production, collaborating closely with engineering and product teams to ensure optimal scalability and efficiency.
+Stay abreast of the latest NLP research and methodologies, proactively integrating innovative techniques into the team’s workflows to maintain cutting-edge capabilities.
+Create comprehensive documentation and guidelines for NLP processes, algorithms, and models, promoting transparency and efficient knowledge sharing within the team.
+Effectively communicate technical insights and results to diverse stakeholders, facilitating informed decision-making and alignment across cross-functional teams.
+Education and Experience:
+Bachelor’s or Master’s in Computer Science, Data Science, Machine Learning, AI, or a related field
+3+ years of hands-on experience in NLP, machine learning, or applied data science; workforce analytics experience strongly preferred
+Solid foundation in NLP, including transformer-based models, LLMs, and knowledge graphs
+Experience with prompt engineering, few-/zero-shot learning, and RAG for tailored NLP applications
+Proficient in parameter-efficient fine-tuning (e.g., LoRA, QLoRA, adapters) to optimize performance and efficiency
+Strong Python skills; experience with Hugging Face Transformers, LangChain, LlamaIndex, and vector databases (e.g., Pinecone, Chroma)
+Knowledge of model optimization techniques like quantization, distillation, and pruning
+Familiar with responsible AI practices, including bias mitigation and model transparency
+Experience with GPU acceleration and distributed training for scalable NLP solutions
+Strong analytical and problem-solving skills; able to align NLP models to business needs
+Excellent communication and collaboration skills in cross-functional environments

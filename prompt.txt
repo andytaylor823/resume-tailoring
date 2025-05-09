@@ -1,0 +1,20 @@
+Restructure the following technical experience section of a resume to better match the job description below. 
+Preserve LaTeX formatting. Only return the updated technical experience section. Include no other extra formatting in your response.
+
+Include three sections in your output: employment, notable projects, and notable programming expertise.
+
+Include at least 8 bullet points in the "Employment" section.
+
+Choose up to 3 projects to highlight in the "Notable Projects" section. Include at least 6 bullet points for each project, but
+you may include more. Do not include the same number for all projects. You may use the commented-out projects in addition
+to the un-commented projects, depending on which ones best match the job description. List the projects in order of 
+most recent to least recent.
+
+Keep the format of the "Notable programming expertise" section the same, with a subsection for programming languages
+and one for other notable software. Keep each line of "notable software" under 70 characters before introducing a line break
+
+Job Description:
+{job_description}
+
+Original Resume Section:
+{technical_section}
