@@ -1,2 +1,4 @@
 log.txt
 main.pdf
+.env
+venv/
